@@ -59,23 +59,21 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+
 author:
-  name   : "First Lastname"
+  name   : "Nivedita Sudhir Patil"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "MSBAIM student at Purdue University, focused on business analytics, predictive modeling, and turning data into actionable business insights."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/niveditaa-patil/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/nivedita-svg"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:patil343@purdue.edu"
 
 footer:
   links:
