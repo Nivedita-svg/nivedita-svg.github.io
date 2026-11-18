@@ -7,18 +7,18 @@ Source for [nivedita-svg.github.io](https://nivedita-svg.github.io).
 Plain static HTML, CSS and a small JavaScript file. There is no build step: GitHub Pages
 serves the files as they are (`.nojekyll` turns off Jekyll processing).
 
-- Fonts (Fraunces and Inter, SIL Open Font License) are self-hosted in `assets/fonts/`, so
+- Fonts (Fraunces and Inter, SIL Open Font License) are self-hosted (the .woff2 files), so
   the site makes no third-party requests.
 - No analytics, trackers, comment systems or contact forms.
 
 | Page | File |
 |---|---|
 | Home | `index.html` |
-| About | `about/index.html` |
-| Experience | `experience/index.html` |
-| Projects | `projects/index.html` |
-| Case studies | `projects/<name>/index.html` |
-| Styles | `assets/css/style.css` |
+| About | `about.html` |
+| Experience | `experience.html` |
+| Projects | `projects.html` |
+| Case studies | `project-*.html` |
+| Styles | `style.css` |
 
 ## Credit and license
 
