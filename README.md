@@ -1,27 +1,44 @@
-# Minimal Mistakes remote theme starter
+# Nivedita Sudhir Patil · Business Analytics Portfolio
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Source for [nivedita-svg.github.io](https://nivedita-svg.github.io).
 
-Contains basic configuration to get you a site with:
+## How it's built
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+Plain static HTML, CSS and a small JavaScript file. There is no build step: GitHub Pages
+serves the files as they are (`.nojekyll` turns off Jekyll processing).
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- Fonts (Fraunces and Inter, SIL Open Font License) are self-hosted in `assets/fonts/`, so
+  the site makes no third-party requests.
+- No analytics, trackers, comment systems or contact forms.
 
----
+| Page | File |
+|---|---|
+| Home | `index.html` |
+| About | `about/index.html` |
+| Experience | `experience/index.html` |
+| Projects | `projects/index.html` |
+| Case studies | `projects/<name>/index.html` |
+| Styles | `assets/css/style.css` |
 
-## Troubleshooting
+## Credit and license
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+This site started from the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+Jekyll theme by Michael Rose (MIT). It has since been redesigned from scratch. The original
+MIT notice is kept in `LICENSE`, and the credit appears in the site footer.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Preview locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000.
+
+## Publishing
+
+GitHub Pages: Settings → Pages → Deploy from a branch → `master` / `(root)`.
+
+## Rules
+
+No résumé/CV, phone number, home address, birth date or ID numbers on this site. Every
+claim must trace to my own records. Client work stays anonymous unless the client clears it.

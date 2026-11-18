@@ -1,4 +1,12 @@
-_site
-.sass-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-Gemfile.lock
+.bundle/
+vendor/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*_secret*
+/_working/

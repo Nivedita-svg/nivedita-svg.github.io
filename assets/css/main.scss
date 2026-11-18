@@ -1,0 +1,43 @@
+---
+---
+
+@charset "utf-8";
+
+$background-color: #ffffff;
+$text-color: #263445;
+$muted-text-color: #64748b;
+$primary-color: #24496b;
+$link-color: #245d86;
+$masthead-link-color: #20364d;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page__content {
+  font-size: 0.95em;
+  line-height: 1.8;
+}
+
+.page__content h2 {
+  border-bottom: 1px solid #e5eaf0;
+  padding-bottom: 0.35em;
+  margin-top: 1.8em;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.masthead {
+  border-bottom: 1px solid #e8edf2;
+}
+
+.page__footer {
+  border-top: 1px solid #e8edf2;
+}
+
+.archive__item-title a {
+  color: #24496b;
+}
